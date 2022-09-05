@@ -1,0 +1,29 @@
+<template>
+  <div>
+    <SlaiderSwiper />
+    <div class="container mx-auto my-">
+      <h1 class="lora">Index page + PoliWeb</h1>
+      <ContentDoc path="/about" />
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+.lora {
+  font-family: Lora;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 35px;
+}
+.cssh1 {
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+</style>
