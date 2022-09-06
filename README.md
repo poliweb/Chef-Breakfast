@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4258b1d2-f3f7-4a79-819c-883e5be803ee/deploy-status)](https://app.netlify.com/sites/chef-breakfast/deploys)
+
 # Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
