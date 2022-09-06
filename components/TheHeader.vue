@@ -5,12 +5,12 @@ const MenuLinks = [
         url: '/'
     },
     {
-        title: 'Second Link',
-        url: '/link'
+        title: 'Services',
+        url: '/services'
     },
     {
-        title: 'Third Link',
-        url: '/link'
+        title: 'Blog',
+        url: '/blog'
     },
     {
         title: 'About Us',
