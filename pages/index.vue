@@ -1,3 +1,11 @@
+<script setup>
+  useHead({
+    title: 'Chef Breakfast',
+    meta: [
+    { name: 'description', content: 'Chef Breakfast. Cafe website template. The template is developed on the Nuxt-3 framework' }
+  ],
+  })
+</script>
 <template>
   <div>
     <SlaiderSwiper />
