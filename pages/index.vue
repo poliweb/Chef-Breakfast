@@ -10,7 +10,7 @@
   <div>
     <SlaiderSwiper />
     <div class="container mx-auto my-">
-      <h1 class="lora">Index page + PoliWeb</h1>
+      <h1 class="lora">"Это шрифт" + Lora</h1>
       <ContentDoc path="/about" />
     </div>
   </div>

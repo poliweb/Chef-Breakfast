@@ -13,11 +13,11 @@ const MenuLinks = [
         url: '/link'
     },
     {
-        title: 'About',
+        title: 'About Us',
         url: '/about'
     },
     {
-        title: 'Contacts',
+        title: 'Contact Us',
         url: '/contacts'
     }
 ]
