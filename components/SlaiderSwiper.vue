@@ -167,4 +167,12 @@ export default {
     animation-fill-mode: both;
 }
 
+.swiper-button-prev {
+    color: #ec4899;
+}
+
+.swiper-button-next {
+    color: #ec4899;
+}
+
 </style>
