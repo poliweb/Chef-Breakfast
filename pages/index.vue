@@ -9,9 +9,9 @@
 <template>
   <div>
     <SlaiderSwiper />
-    <div class="container mx-auto my-">
+    <div class="container mx-auto my-24">
       <h1 class="lora">"Это шрифт" + Lora</h1>
-      <ContentDoc path="/about" />
+      <ContentDoc path="/home" />
     </div>
   </div>
 </template>
