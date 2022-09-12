@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="container mx-auto my-24 px-5">
+    <div class="container mx-auto my-24 px-5 text-gray-900">
         <div class="flex flex-col md:flex-row items-center justify-between gap-8">
             <div class="w-full md:w-1/2">
                 <h3 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">About Chef Breakfast</h3>
