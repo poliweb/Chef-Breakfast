@@ -11,6 +11,14 @@
   body {
     font-family: Roboto, Lora, system-ui, sans-serif;
   }
+
+  .font-Lora {
+    font-family: Lora, system-ui, sans-serif;
+  }
+
+  .title {
+    font-family: Lora, system-ui, sans-serif;
+  }
 }
 
 .btn-primary {
@@ -18,4 +26,7 @@
 }
 .btn-secondary {
     @apply inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg;
+}
+.title {
+  @apply text-5xl font-bold italic uppercase mb-4 text-pink-500;
 }
