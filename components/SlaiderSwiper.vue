@@ -174,5 +174,8 @@ export default {
 .swiper-button-next {
     color: #ec4899;
 }
+.swiper-pagination-bullet-active {
+    background-color: #ec4899;
+}
 
 </style>
