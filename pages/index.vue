@@ -9,6 +9,7 @@
 <template>
   <div>
     <SlaiderSwiper />
+    <HomeFeature/>
     <HomeAbout/>
     <div class="container mx-auto my-24">
       <h1 class="title">"Это шрифт" + Lora</h1>
