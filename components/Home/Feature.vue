@@ -50,8 +50,8 @@ const features = [
             </div>
             <div class="flex flex-wrap -m-4">
                 <div v-for="feature in features" :key="feature.index" class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center"
+                    <div class="flex relative overflow-hidden transformImg">
+                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center transition ease-in-out duration-700"
                             :src="feature.imgSrc">
                         <div
                             class="px-8 py-10 relative z-10 w-full min-h-52 border-4 border-pink-200 transition-opacity duration-500 ease-in-out bg-white opacity-0 hover:opacity-100">
@@ -72,5 +72,7 @@ const features = [
 </template>
 
 <style>
-
+.transformImg:hover img {
+    transform: scale(1.2)
+}
 </style>
