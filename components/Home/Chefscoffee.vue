@@ -55,7 +55,7 @@ const coffeeAssortments = [
                             {{ coffeeAssortment.description }}
                         </p>
                         <NuxtLink to="/" class="text-pink-500 inline-flex items-center md:mb-2 lg:mb-0 transition duration-1000 ease-in-out">
-                            Learn More <nuxt-icon name="arrow" fill class="w-4 h-4 ml-2" />
+                            Learn More <IconsArrow class="w-4 h-4 ml-1"/>
                         </NuxtLink>
                     </div>
                 </div>

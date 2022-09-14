@@ -18,10 +18,7 @@
                 </p>
                 <NuxtLink to="/about" class="text-pink-500 inline-flex items-center mt-4">
                     Read More
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                        <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
+                    <IconsArrow class="w-4 h-4 ml-1"/>
                 </NuxtLink>
             </div>
             <div class="w-full md:w-1/2 relative max-w-2xl">
