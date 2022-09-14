@@ -4,31 +4,37 @@ const coffeeAssortments = [
         title: 'Evening Express',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128608/CHEF%20BREAKFAST/Coffee/photo-1523179985834-1363f5c47d84_ojolge.webp',
+        LinkTo: '/'
     },
     {
         title: 'Joy of the day',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128730/CHEF%20BREAKFAST/Coffee/photo-1575236331597-6108c662da93_vmqn26.webp',
+        LinkTo: '/about'
     },
     {
         title: 'Stranger',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128697/CHEF%20BREAKFAST/Coffee/photo-1570749960335-08b0b98c26d0_b0hqqo.webp',
+        LinkTo: '/about'
     },
     {
         title: 'Lunar encounter',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128562/CHEF%20BREAKFAST/Coffee/photo-1582010622410-3060ca20ab10_qrqzxc.webp',
+        LinkTo: '/'
     },
     {
         title: 'Dawn in the desert',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128375/CHEF%20BREAKFAST/Coffee/photo-1581842843064-bb0953f1b35f_lfw8zq.webp',
+        LinkTo: '/'
     },
     {
         title: 'Coffee paradise',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663129067/CHEF%20BREAKFAST/Coffee/photo-1554285833-5eb928f2d4c1_vwacqv.webp',
+        LinkTo: '/'
     }
 ]
 </script>
@@ -54,7 +60,7 @@ const coffeeAssortments = [
                         <p class="text-gray-900 transition duration-700 ease-in-out">
                             {{ coffeeAssortment.description }}
                         </p>
-                        <NuxtLink to="/" class="text-pink-500 inline-flex items-center md:mb-2 lg:mb-0 transition duration-1000 ease-in-out">
+                        <NuxtLink :to="coffeeAssortment.LinkTo" class="text-pink-500 inline-flex items-center md:mb-2 lg:mb-0 transition duration-1000 ease-in-out">
                             Learn More <IconsArrow class="w-4 h-4 ml-1"/>
                         </NuxtLink>
                     </div>
