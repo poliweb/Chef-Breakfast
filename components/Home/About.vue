@@ -26,7 +26,7 @@
             <div class="w-full md:w-1/2 relative max-w-2xl">
                 <div class="pr-20 pb-20  z-20">
                     <img src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1662956031/CHEF%20BREAKFAST/photo-1532635211-8ec15f2ce05c_v5zx8d.webp"
-                    alt="Chef" class="rounded z-20">
+                    alt="Chef" class="rounded z-20 -hue-rotate-60">
                 </div>
                 <div class="podloga w-full h-full rounded bg-pink-300 absolute bottom-0 right-0 -z-50"></div>
             </div>
