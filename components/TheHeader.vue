@@ -40,7 +40,7 @@ const MenuLinks = [
             <button
                 class="inline-flex items-center bg-pink-200 border-0 py-1 px-3 focus:outline-none hover:bg-pink-300 rounded text-base mt-4 md:mt-0 text-pink-700">
                 CallMy
-                <IconsPhonearrow class="w-5 h-5 ml-1"/>
+                <IconsPhonearrow class="w-4 h-4 ml-1"/>
             </button>
         </div>
     </header>
