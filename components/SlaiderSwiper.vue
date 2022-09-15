@@ -14,7 +14,7 @@
 }" @swiper="onSwiper" @slideChange="onSlideChange">
             <swiper-slide v-for="Slaider in Slaiders" :key="Slaider.index">
             <section class="text-gray-600 body-font bg-pink-200 bg-cover bg-left bg-center Height-600" :class="Slaider.bgClass" :style="{ backgroundImage: 'url(' + Slaider.bgImage + ')' }">
-                <div class="container mx-auto px-5 py-24  flex md:flex-row flex-col items-center">
+                <div class="container mx-auto px-5 py-24  flex md:flex-row flex-col items-center h-full">
                     <div class="lg:max-w-2xl lg:w-full md:w-1/2 w-5/6">
                     </div>
                     <div
