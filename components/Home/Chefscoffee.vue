@@ -74,6 +74,7 @@ const coffeeAssortments = [
 .coffeeDescription h3,
 .coffeeDescription p,
 .coffeeDescription a{
+    opacity: 0;
     transform: translateY(15rem);
 
 }
@@ -82,6 +83,7 @@ const coffeeAssortments = [
 .coffeeDescription:hover h3,
 .coffeeDescription:hover p,
 .coffeeDescription:hover a {
+    opacity: 1;
     transform: translateY(0px);
 }
 
