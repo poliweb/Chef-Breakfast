@@ -40,7 +40,7 @@ const coffeeAssortments = [
 </script>
 <template>
     <div class="container mx-auto my-24 px-5">
-        <h3 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Сoffee you won't forget</h3>
+        <h3 class="text-lg sm:text-2xl text-gray-900 font-medium title-font mb-2">Сoffee you won't forget</h3>
         <h1 class="title">Chef`s Coffee</h1>
         <p class="py-2">The bitter drink from the chef was loved by visitors no less than the relaxed atmosphere of the
             cafe.</p>
@@ -54,7 +54,7 @@ const coffeeAssortments = [
                     <img :src="coffeeAssortment.imgSrc" alt="" class="rounded">
                     <div
                         class="absolute top-0 left-0 bottom-0 right-0 p-4 hover:backdrop-opacity-20 hover:backdrop-invert hover:bg-pink-100/70 transition duration-700 ease-in-out coffeeDescription">
-                        <h3 class="text-pink-500 text-lg font-semibold transition duration-500 ease-in-out">
+                        <h3 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
                             {{ coffeeAssortment.title }}
                         </h3>
                         <p class="text-gray-900 transition duration-700 ease-in-out">

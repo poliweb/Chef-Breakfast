@@ -12,10 +12,10 @@
     <HomeFeature/>
     <HomeAbout/>
     <HomeChefscoffee/>
-    <div class="container mx-auto my-24">
+    <!-- <div class="container mx-auto my-24">
       <h1 class="title">"Это шрифт" + Lora</h1>
-      <ContentDoc path="/home" />
-    </div>
+      <ContentDoc path="/about" />
+    </div> -->
   </div>
 </template>
 

@@ -5,7 +5,7 @@
     <div class="container mx-auto my-24 px-5 text-gray-900">
         <div class="flex flex-col md:flex-row items-center justify-between gap-8">
             <div class="w-full md:w-1/2">
-                <h3 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">About Chef Breakfast</h3>
+                <h3 class="text-lg sm:text-2xl text-gray-900 font-medium title-font mb-2">About Chef Breakfast</h3>
                 <h2 class="title">25 years of experience in food preparation</h2>
                 <p class="py-2">
                     Cooking is the art of cooking. It has a rich centuries-old history, reflecting the most ancient branch of human activity, its material culture, which brought together the experience and skills of cooking methods of different peoples that have come down to our time.
@@ -17,7 +17,7 @@
                     The health of people largely depends on the correct, scientifically based, well-organized nutrition. Food should not only quantitatively, but also qualitatively meet the physiological needs and capabilities.
                 </p>
                 <NuxtLink to="/about" class="text-pink-500 inline-flex items-center mt-4">
-                    Read More
+                    Learn More
                     <IconsArrow class="w-4 h-4 ml-1"/>
                 </NuxtLink>
             </div>

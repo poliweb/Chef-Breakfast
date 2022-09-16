@@ -58,7 +58,7 @@ const features = [
                             <h2 class="tracking-widest text-sm title-font font-medium text-pink-300 mb-1">{{
                             feature.subtitle }}
                             </h2>
-                            <h1 class="title-font text-lg font-medium text-pink-500 mb-3 uppercase">{{ feature.title }}
+                            <h1 class="title-font text-2xl font-medium text-pink-500 mb-3 uppercase">{{ feature.title }}
                             </h1>
                             <p class="leading-relaxed">
                                 {{ feature.description }}
