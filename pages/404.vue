@@ -1,6 +1,11 @@
 <script setup>
-
-  </script>
+  useHead({
+    title: '404 Error - Page Not Found ',
+    meta: [
+    { name: 'description', content: 'A great 404 page can be a smart way to show off your brand’s personality.' }
+  ],
+  })
+</script>
 
 <template>
   <div
