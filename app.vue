@@ -7,7 +7,7 @@ useHead({
     }
   ]
 })
-console.log('✋ Hi!  This Project from PoliWeb Developer. ⛔This project is not in production yet ')
+// console.log('✋ Hi!  This Project from PoliWeb Developer. ⛔This project is not in production yet ')
 </script>
 <template>
   <div>

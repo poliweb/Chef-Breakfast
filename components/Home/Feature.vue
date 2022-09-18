@@ -55,11 +55,11 @@ const features = [
                             :src="feature.imgSrc">
                         <div
                             class="px-8 py-10 relative z-10 w-full min-h-52 border-4 border-pink-200 transition-opacity duration-500 ease-in-out bg-white opacity-0 hover:opacity-100">
-                            <h2 class="tracking-widest text-sm title-font font-medium text-pink-300 mb-1">{{
+                            <h3 class="tracking-widest text-sm title-font font-medium text-pink-300 mb-1">{{
                             feature.subtitle }}
+                            </h3>
+                            <h2 class="title-font text-2xl font-medium text-pink-500 mb-3 uppercase">{{ feature.title }}
                             </h2>
-                            <h1 class="title-font text-2xl font-medium text-pink-500 mb-3 uppercase">{{ feature.title }}
-                            </h1>
                             <p class="leading-relaxed">
                                 {{ feature.description }}
                             </p>
