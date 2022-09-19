@@ -1,5 +1,6 @@
 ---
 title: 'Articles Home md'
+category: Tips from the chef
 date: 2022-03-25
 author: Chef
 ---

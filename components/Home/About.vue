@@ -22,7 +22,7 @@
                 </NuxtLink>
             </div>
             <div class="w-full md:w-1/2 relative max-w-2xl">
-                <div class="pr-20 pb-20  z-20">
+                <div class="pr-5 pb-5 sm:pr-10 sm:pb-10 md:pr-20 md:pb-20  z-20">
                     <img src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1662956031/CHEF%20BREAKFAST/photo-1532635211-8ec15f2ce05c_v5zx8d.webp"
                         alt="Chef" class="rounded z-20 -hue-rotate-60">
                 </div>
