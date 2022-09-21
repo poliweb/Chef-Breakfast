@@ -2,14 +2,29 @@
 import {convertDate} from '../../utils'
 </script>
 <template>
-    <div class="container mx-auto my-24 px-5">
+    <section class="text-gray-600 body-font">
         <ContentDoc :path="$route.path" v-slot="{ doc }">
-            <h1 class="title">{{ doc.title }}</h1>
-            <img v-if="doc.img" :src="doc.img" alt="" class="w-full h-80 object-cover object-top rounded">
-            <ContentRenderer :value="doc" class="conent-descrip text-gray-600 mx-auto"/>
-            <p class="my-4 text-gray-400"><span>by, {{ doc.author }}, {{ convertDate(doc.date)  }}</span></p>
+            <div class="relative">
+                <div class="absolute z-0 h-full w-full">
+                    <img v-if="doc.img" :src="doc.img" :alt="doc.title" class="absolute z-0 h-full w-full object-cover" />
+                    <img v-else src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_384,w_1740/v1663655906/CHEF%20BREAKFAST/Baner8_Left_sp2git.webp" class="absolute z-0 h-full w-full object-cover" />
+                </div>
+                <div class="z-5 absolute h-full w-full bg-gray-900 bg-opacity-50"></div>
+                <div class="container px-5 mx-auto grid grid-cols-1 content-center h-96">
+                    <h3 class="tracking-widest text-xl title-font font-medium text-gray-200 mb-1 uppercase z-10">{{
+                doc.category }}</h3>
+                <h1 class="title z-10">{{ doc.title }}</h1>
+                    <!-- <h2 class="z-10 m-auto -skew-y-12 transform px-4 text-5xl font-bold text-white md:text-7xl">
+                        { Мой Блог }
+                    </h2> -->
+                </div>
+            </div>
+            <div class="container px-5 py-24 mx-auto">
+                <ContentRenderer :value="doc" class="conent-descrip text-gray-600 mx-auto" />
+                <p class="my-4 text-gray-400"><span>by, {{ doc.author }}, {{ convertDate(doc.date) }}</span></p>
+            </div>
         </ContentDoc>
-    </div>
+    </section>
 </template>
 
 <style>

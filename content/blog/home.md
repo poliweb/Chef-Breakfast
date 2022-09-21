@@ -19,3 +19,5 @@ Phosfluorescently disintermediate cooperative ROI before competitive catalysts f
 Objectively integrate client-focused value vis-a-vis empowered infomediaries. Seamlessly actualize viral partnerships vis-a-vis go forward customer service. Competently benchmark long-term high-impact leadership via high-payoff applications. Energistically whiteboard next-generation manufactured products rather than backward-compatible applications. Enthusiastically transition 24/365 methods of empowerment with parallel services.
 
 Interactively plagiarize excellent opportunities without best-of-breed leadership skills. Monotonectally strategize.
+
+![Chef Breakfast](https://res.cloudinary.com/poliweb/image/upload/g_center/v1663046315/CHEF%20BREAKFAST/Food/photo-1512621776951-a57141f2eefd_objkuy.webp)

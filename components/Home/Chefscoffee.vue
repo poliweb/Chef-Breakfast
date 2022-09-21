@@ -16,7 +16,7 @@ const coffeeAssortments = [
         title: 'Stranger',
         description: 'Coffee beans from sunny plantations and quality roasting',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663128697/CHEF%20BREAKFAST/Coffee/photo-1570749960335-08b0b98c26d0_b0hqqo.webp',
-        LinkTo: '/about'
+        LinkTo: '/blog/turkishcoffee'
     },
     {
         title: 'Lunar encounter',

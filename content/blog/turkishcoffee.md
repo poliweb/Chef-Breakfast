@@ -3,7 +3,7 @@ title: How to Make Turkish Coffee At Home
 category: Recipes from the chef
 date: 2022-04-15
 author: Chef
-img: https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663573066/CHEF%20BREAKFAST/Coffee/photo-1556667356-3452717120a0_hlapyo.webp
+img: https://res.cloudinary.com/poliweb/image/upload/c_fill,g_xy_center,h_384,w_1740,y_380/v1663573066/CHEF%20BREAKFAST/Coffee/photo-1556667356-3452717120a0_hlapyo.webp
 ---
 
 
@@ -40,3 +40,5 @@ Serve with water and Turkish delight.
 ### [Where can I find Turkish Coffee cups?]{.title-font .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase}
 
 If you ever visit Turkey and most other nearby countries, you can find a variety of options for Turkish coffee cups. However, if that is not possible you can easily find them online. Additionally, you can use espresso cups. They are a little larger but they would do the job.
+
+![Turkish Coffee](https://res.cloudinary.com/poliweb/image/upload/g_center/v1663573066/CHEF%20BREAKFAST/Coffee/photo-1556667356-3452717120a0_hlapyo.webp)
