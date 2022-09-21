@@ -7,6 +7,12 @@ useHead({
     }
   ]
 })
+
+const nuxtApp = useNuxtApp()
+
+  nuxtApp.hook("page:finish", () => {
+     window.scrollTo(0, 0)
+  })
 // console.log('✋ Hi!  This Project from PoliWeb Developer. ⛔This project is not in production yet ')
 </script>
 <template>
