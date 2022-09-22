@@ -15,9 +15,11 @@ Learn How To cook, brew and make Turkish Coffee at home from the way I learned f
 
 ### [Ingredients]{.title-font .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase }
 
-- 3 Turkish coffee cup-sized cups of cold filtered water 1 1/2 cup per cup
-- 2 heaping tablespoons Turkish Coffee ground
-- Sugar – as requested
+_3 Turkish coffee cup-sized cups of cold filtered water 1 1/2 cup per cup_
+
+_2 heaping tablespoons Turkish Coffee ground_
+
+_Sugar – as requested_
 
 ![Turkish Coffee cups](https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663577268/CHEF%20BREAKFAST/Coffee/photo-1621112904899-d14ce062bea8_kjhlzt.webp)
 
