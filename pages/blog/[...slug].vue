@@ -14,9 +14,6 @@ import {convertDate} from '../../utils'
                     <h3 class="tracking-widest text-xl title-font font-medium text-gray-200 mb-1 uppercase z-10">{{
                 doc.category }}</h3>
                 <h1 class="title z-10">{{ doc.title }}</h1>
-                    <!-- <h2 class="z-10 m-auto -skew-y-12 transform px-4 text-5xl font-bold text-white md:text-7xl">
-                        { Мой Блог }
-                    </h2> -->
                 </div>
             </div>
             <div class="container px-5 py-24 mx-auto">
@@ -34,7 +31,7 @@ import {convertDate} from '../../utils'
 
 .conent-descrip h3 {
     color: #ec4899;
-    margin-top: 1.5rem;
+    margin-top: 5.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-size: 1.5rem; /* 24px */

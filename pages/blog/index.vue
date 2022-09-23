@@ -7,21 +7,29 @@ useHead({
     ],
 })
 
+const { query } = useRoute();
+const { category } = query
+// blog?category=Tips+from+the+chef
+
+const qc = await queryContent('blog')
+  .where({ category })
+  .sort({ date: -1 })
+  .find()
 </script>
 <template>
   <main>
-    <ContentList path="/blog" v-slot="{ list }">
       <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
-          <h1 class="title">My Blog</h1>
+          <h1 class="title mb-24">Chef's Notes</h1>
+          <p class="lg:w-2/3 leading-relaxed text-base mb-20">In this blog you will find recipes and tips from the best chef of all time. With much love to you "CHEF BREAKFAST"</p>
           <div class="flex flex-wrap -m-4">
-            <div v-for="article in list" :key="article._path" class="p-4 md:w-1/3">
+            <div v-for="article in qc" :key="article._path" class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <NuxtLink :to="article._path">
                 <img v-if="article.img" class="lg:h-48 md:h-36 w-full object-cover object-center" :src="article.img"
-                  alt="blog">
+                  :alt="article.title" width="720" height="400">
                 <img v-else class="lg:h-48 md:h-36 w-full object-cover object-center"
-                  src="https://dummyimage.com/720x400" alt="blog">
+                  src="https://dummyimage.com/720x400" :alt="article.title" width="720" height="400">
                 </NuxtLink>
                 <div class="p-6">
                   <h3 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1 uppercase">{{
@@ -46,7 +54,6 @@ useHead({
           </div>
         </div>
       </section>
-    </ContentList>
   </main>
 </template>
 
