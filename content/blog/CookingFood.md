@@ -3,7 +3,7 @@ title: Cooking food
 category: Tips from the chef
 date: 2022-09-20
 author: Chef
-img: https://res.cloudinary.com/poliweb/image/upload/c_fill,g_xy_center,h_380,w_1740,y_220/v1663917404/CHEF%20BREAKFAST/pexels-photo-3217146_bjfmpu.webp
+img: https://res.cloudinary.com/poliweb/image/upload/c_fill,g_xy_center,h_380,w_1740,x_1125,y_210/v1663917404/CHEF%20BREAKFAST/pexels-photo-3217146_bjfmpu.webp
 ---
 
 Cooking is an experience and a science, but with the right technique, anyone can cook well. And whether you are an experienced professional or an aspiring amateur chef, there is no limit to perfection.

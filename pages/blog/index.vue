@@ -26,9 +26,9 @@ const qc = await queryContent('blog')
             <div v-for="article in qc" :key="article._path" class="p-4 md:w-1/3">
               <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <NuxtLink :to="article._path">
-                <img v-if="article.img" class="lg:h-48 md:h-36 w-full object-cover object-center" :src="article.img"
+                <img v-if="article.img" class="h-52 lg:h-48 md:h-36 w-full object-cover object-center" :src="article.img"
                   :alt="article.title" width="720" height="400">
-                <img v-else class="lg:h-48 md:h-36 w-full object-cover object-center"
+                <img v-else class="h-52 lg:h-48 md:h-36 w-full object-cover object-center"
                   src="https://dummyimage.com/720x400" :alt="article.title" width="720" height="400">
                 </NuxtLink>
                 <div class="p-6">
