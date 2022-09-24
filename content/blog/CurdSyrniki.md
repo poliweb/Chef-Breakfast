@@ -35,12 +35,20 @@ _Strawberry syrup - 5 g_
 
 ### [Cooking method:]{.title-font .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase }
 
-1 Mix cottage cheese with flour, sprinkle with powdered sugar, add vanilla sugar, egg yolk and mix thoroughly. If the cottage cheese is too liquid, then the amount of flour should be increased by 20-30%.
+#### [Step 1]{.title-font .text-xl .font-medium .text-pink-500}
 
-2 Form small cheesecakes, bread them in flour and fry in a pan until golden brown.
+Mix cottage cheese with flour, sprinkle with powdered sugar, add vanilla sugar, egg yolk and mix thoroughly. If the cottage cheese is too liquid, then the amount of flour should be increased by 20-30%.
 
-3 To make strawberry yogurt, combine low fat yogurt, sour cream, diced strawberries and strawberry syrup.
+#### [Step 2]{.title-font .text-xl .font-medium .text-pink-500}
 
-4 Serniki served with yogurt, sprinkled with powdered sugar.
+Form small cheesecakes, bread them in flour and fry in a pan until golden brown.
+
+#### [Step 3]{.title-font .text-xl .font-medium .text-pink-500}
+
+To make strawberry yogurt, combine low fat yogurt, sour cream, diced strawberries and strawberry syrup.
+
+#### [Step 4]{.title-font .text-xl .font-medium .text-pink-500}
+
+Serniki served with yogurt, sprinkled with powdered sugar.
 
 ![Curd Syrniki with strawberry yogurt](https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_500,w_1000/v1663853800/CHEF%20BREAKFAST/Food/pexels-photo-10254478_ujnh4p.webp)

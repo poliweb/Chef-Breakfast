@@ -40,6 +40,11 @@ import {convertDate} from '../../utils'
 
 }
 
+.conent-descrip h4 {
+        margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
 .conent-descrip p {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;

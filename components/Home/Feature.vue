@@ -16,17 +16,17 @@ const features = [
     },
     {
         subtitle: 'Chef Breakfast',
-        title: 'Amazing salads',
-        description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663046315/CHEF%20BREAKFAST/Food/photo-1512621776951-a57141f2eefd_objkuy.webp',
-        LinkTo: '/blog/creamsalad'
-    },
-    {
-        subtitle: 'Chef Breakfast',
         title: 'Fantastic Ice Cream',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663046628/CHEF%20BREAKFAST/Food/photo-1633933358116-a27b902fad35_csrbjq.webp',
         LinkTo: ''
+    },
+    {
+        subtitle: 'Chef Breakfast',
+        title: 'Ukrainian borsch',
+        description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_north,h_361,w_601/v1663998920/CHEF%20BREAKFAST/Food/pexels-photo-8601388_ddzbee.webp',
+        LinkTo: '/blog/ukrainianborsch'
     },
     {
         subtitle: 'Chef Breakfast',

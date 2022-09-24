@@ -25,17 +25,31 @@ _Sugar – as requested_
 
 ### [Instructions]{.title-font .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase}
 
+#### [Step 1]{.title-font .text-xl .font-medium .text-pink-500}
+
 Place the sugar (if desired), water, and Turkish coffee in metal Turkish coffee pot (Cezve).
+
+#### [Step 2]{.title-font .text-xl .font-medium .text-pink-500}
 
 Using a small spoon, stir briefly until just combined and place pot on stovetop.
 
+#### [Step 3]{.title-font .text-xl .font-medium .text-pink-500}
+
 Slowly bring coffee mixture to a boil over medium heat. This will take 3-4 minutes, so keep a close watch.
+
+#### [Step 4]{.title-font .text-xl .font-medium .text-pink-500}
 
 As the coffee warms, you will see a dark foam building up. Closer to it coming to a boil, using a teaspoon, transfer some of the foam into each of your two Turkish coffee cups. Return coffee pot to stovetop.
 
+#### [Step 5]{.title-font .text-xl .font-medium .text-pink-500}
+
 As coffee comes to a boil, pour half of the coffee into the cups, over the foam.
 
+#### [Step 6]{.title-font .text-xl .font-medium .text-pink-500}
+
 Return coffee pot to stovetop and boil the remaining coffee for an additional 15-20 seconds and pour the rest in to the coffee cups to the rim.
+
+#### [Step 7]{.title-font .text-xl .font-medium .text-pink-500}
 
 Serve with water and Turkish delight.
 

@@ -33,18 +33,34 @@ _Vegetable oil - to taste_
 
 ### [Cooking instructions]{.title-font .text-2xl .font-medium .text-pink-500 .mb-3 .uppercase}
 
-1 Prepare the ingredients.
+#### [Step 1]{.title-font .text-xl .font-medium .text-pink-500}
 
-2 Heat milk to 40°C. Combine half the flour, yeast, milk and 1 tsp in a blender bowl. Sahara. Beat until smooth, cover and leave in a warm place for 25-30 minutes. The dough will begin to rise, become frothy and increase in volume.
+Prepare the ingredients.
 
-3 Separate the yolks from the whites. Cool the whites and beat with salt in a strong foam.
+#### [Step 2]{.title-font .text-xl .font-medium .text-pink-500}
 
-4 Add the remaining flour and sugar, yolks to the dough that has come up. Whisk thoroughly again. Fold in the beaten egg whites and fold gently with a spatula. Leave in a warm place and let the dough rise again.
+Heat milk to 40°C. Combine half the flour, yeast, milk and 1 tsp in a blender bowl. Sahara. Beat until smooth, cover and leave in a warm place for 25-30 minutes. The dough will begin to rise, become frothy and increase in volume.
 
-5 Heat a skillet over medium-high heat. Pour in a little vegetable oil and add a piece of butter. Rotate the pan so that the oil completely coats the bottom.
+#### [Step 3]{.title-font .text-xl .font-medium .text-pink-500}
 
-6 Without stirring the dough, start baking pancakes. Pour a small ladle into the pan and rotate the pan so that the batter completely coats the bottom. Cook for 1-2 minutes until the edges of the pancake begin to brown. Pry off the edge with a spatula and flip over. Cook for 1-2 more minutes on the other side, then transfer to a serving platter. Keep pancakes warm until serving.
+Separate the yolks from the whites. Cool the whites and beat with salt in a strong foam.
 
-7 The dish is ready!
+#### [Step 4]{.title-font .text-xl .font-medium .text-pink-500}
+
+Add the remaining flour and sugar, yolks to the dough that has come up. Whisk thoroughly again. Fold in the beaten egg whites and fold gently with a spatula. Leave in a warm place and let the dough rise again.
+
+![Russian pancakes with caviar](https://res.cloudinary.com/poliweb/image/upload/c_fill,g_north,h_380,w_1000/v1663899677/CHEF%20BREAKFAST/Food/pexels-photo-376464_uzjjm8.webp)
+
+#### [Step 5]{.title-font .text-xl .font-medium .text-pink-500}
+
+Heat a skillet over medium-high heat. Pour in a little vegetable oil and add a piece of butter. Rotate the pan so that the oil completely coats the bottom.
+
+#### [Step 6]{.title-font .text-xl .font-medium .text-pink-500}
+
+Without stirring the dough, start baking pancakes. Pour a small ladle into the pan and rotate the pan so that the batter completely coats the bottom. Cook for 1-2 minutes until the edges of the pancake begin to brown. Pry off the edge with a spatula and flip over. Cook for 1-2 more minutes on the other side, then transfer to a serving platter. Keep pancakes warm until serving.
+
+#### [Step 7]{.title-font .text-xl .font-medium .text-pink-500}
+
+The dish is ready!
 
 ![Russian pancakes with caviar](https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663899612/CHEF%20BREAKFAST/Food/pexels-photo-8601520_mi9ymw.webp)
