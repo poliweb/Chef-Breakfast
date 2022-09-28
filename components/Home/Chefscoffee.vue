@@ -45,7 +45,8 @@ const coffeeAssortments = [
         <p class="py-2">The bitter drink from the chef was loved by visitors no less than the relaxed atmosphere of the
             cafe.</p>
         <div class="flex flex-col md:flex-row gap-8 my-20">
-            <div class="w-full md:w-1/3 -hue-rotate-60 hover:hue-rotate-15 transition duration-500 ease-in-ou bg-cover bg-center rounded" style="background-image: url(https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_1000/v1663128175/CHEF%20BREAKFAST/Coffee/photo-1606791405792-1004f1718d0c_ufu5wj.webp)">
+            <div class="w-full md:w-1/3 -hue-rotate-60 hover:hue-rotate-15 transition duration-500 ease-in-ou bg-cover bg-center rounded"
+                style="background-image: url(https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_1000/v1663128175/CHEF%20BREAKFAST/Coffee/photo-1606791405792-1004f1718d0c_ufu5wj.webp)">
 
             </div>
             <div class="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -54,15 +55,19 @@ const coffeeAssortments = [
                     <img :src="coffeeAssortment.imgSrc" alt="" class="rounded">
                     <div
                         class="absolute top-0 left-0 bottom-0 right-0 p-4 hover:backdrop-opacity-20 hover:backdrop-invert hover:bg-pink-100/70 transition duration-700 ease-in-out coffeeDescription">
-                        <h3 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
-                            {{ coffeeAssortment.title }}
-                        </h3>
-                        <p class="text-gray-900 transition duration-700 ease-in-out">
-                            {{ coffeeAssortment.description }}
-                        </p>
-                        <NuxtLink :to="coffeeAssortment.LinkTo" class="text-pink-500 inline-flex items-center md:mb-2 lg:mb-0 transition duration-1000 ease-in-out">
-                            Learn More <IconsArrow class="w-4 h-4 ml-1"/>
-                        </NuxtLink>
+                        <div class="flex flex-col place-content-center h-full">
+                            <h3 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
+                                {{ coffeeAssortment.title }}
+                            </h3>
+                            <p class="text-gray-900 transition duration-700 ease-in-out">
+                                {{ coffeeAssortment.description }}
+                            </p>
+                            <NuxtLink :to="coffeeAssortment.LinkTo"
+                                class="text-pink-500 inline-flex items-center md:mb-2 lg:mb-0 transition duration-1000 ease-in-out">
+                                Learn More
+                                <IconsArrow class="w-4 h-4 ml-1" />
+                            </NuxtLink>
+                        </div>
                     </div>
                 </div>
             </div>

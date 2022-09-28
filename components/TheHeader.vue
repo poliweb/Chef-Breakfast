@@ -37,11 +37,11 @@ const MenuLinks = [
                     class="mr-5 hover:text-pink-700">{{ MenuLink.title }}
                 </NuxtLink>
             </nav>
-            <button
-                class="inline-flex items-center bg-pink-200 border-0 py-1 px-3 focus:outline-none hover:bg-pink-300 rounded text-base mt-4 md:mt-0 text-pink-700">
+            <a href="tel:+0123456789"
+                class="inline-flex items-center bg-pink-200 border-0 py-1 px-5  text-base mt-4 md:mt-0 focus:outline-none hover:bg-pink-300 hover:shadow-lg hover:shadow-pink-500/50 rounded-full text-pink-700 transition ease-in-out">
                 CallMy
                 <IconsPhonearrow class="w-4 h-4 ml-1"/>
-            </button>
+            </a>
         </div>
     </header>
 </template>

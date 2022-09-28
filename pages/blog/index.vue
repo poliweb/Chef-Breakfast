@@ -15,6 +15,7 @@ const qc = await queryContent('blog')
   .where({ category })
   .sort({ date: -1 })
   .find()
+
 </script>
 <template>
   <section class="text-gray-600 body-font">
@@ -22,11 +23,11 @@ const qc = await queryContent('blog')
       <h1 class="title mb-24">Chef's Notes</h1>
       <p class="lg:w-2/3 leading-relaxed text-base mb-20">In this blog you will find recipes and tips from the best chef
         of all time. With much love to you "CHEF BREAKFAST"</p>
-      <div class="">
+      <!-- <div class="">
         <ul class="flex gap-4">
-          <li v-for="category in qc" :key="category.id">#{{ category.category }}</li>
+          <li v-for="category in qc" :key="category.title">#{{ category.category }}</li>
         </ul>
-      </div>
+      </div> -->
       <div class="flex flex-wrap -m-4">
         <div v-for="article in qc" :key="article._path" class="p-4 md:w-1/3">
           <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
