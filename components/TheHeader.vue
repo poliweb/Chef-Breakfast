@@ -34,7 +34,7 @@ const MenuLinks = [
             </NuxtLink>
             <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center scroll-nav-color">
                 <NuxtLink v-for="MenuLink in MenuLinks" :key="MenuLink.index" :to="MenuLink.url"
-                    class="mr-5 hover:text-pink-900">{{ MenuLink.title }}
+                    class="mr-5 hover:text-pink-500 scroll-nav-a">{{ MenuLink.title }}
                 </NuxtLink>
             </nav>
             <a href="tel:+0123456789"
@@ -103,7 +103,11 @@ const MenuLinks = [
 }
 
 .navbar__scrolled .router-link-active {
-    color: #111827;
+    color: #831843;
+}
+
+.navbar__scrolled .scroll-nav-a:hover {
+    color: #831843;
 }
 
 .assistantNavbar__scrolled {
