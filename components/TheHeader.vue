@@ -23,18 +23,18 @@ const MenuLinks = [
 ]
 </script>
 <template>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header  id="navbar" class="body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center scroll-container">
             <NuxtLink to="/" class="flex title-font font-medium items-center mb-4 md:mb-0">
-                <TheLogo class="fill-white w-12 h-12 text-white p-2 bg-pink-500 rounded-full" />
+                <TheLogo class="fill-white w-12 h-12 text-white p-2 bg-pink-500 rounded-full scroll-logo"/>
                 <div class="flex-col ml-3">
-                    <h2 class="text-xl font-medium leading-5 uppercase text-gray-900">Chef Breakfast</h2>
-                    <span class="text-sm font-light leading-4 tracking-wider text-gray-800">caffe bistro master</span>
+                    <h2 class="text-xl font-medium leading-5 uppercase text-gray-900 scroll-logo-title">Chef Breakfast</h2>
+                    <span class="text-sm font-light leading-4 tracking-wider text-gray-800 scroll-logo-subtitle">caffe bistro master</span>
                 </div>
             </NuxtLink>
-            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center scroll-nav-color">
                 <NuxtLink v-for="MenuLink in MenuLinks" :key="MenuLink.index" :to="MenuLink.url"
-                    class="mr-5 hover:text-pink-700">{{ MenuLink.title }}
+                    class="mr-5 hover:text-pink-900">{{ MenuLink.title }}
                 </NuxtLink>
             </nav>
             <a href="tel:+0123456789"
@@ -44,6 +44,7 @@ const MenuLinks = [
             </a>
         </div>
     </header>
+    <div id="assistantNavbar" class=""></div>
 </template>
 
 
@@ -66,5 +67,47 @@ const MenuLinks = [
 
 .router-link-active:hover {
     color:#ec4899;
+}
+
+
+/* For scroll css */
+.navbar__scrolled {
+	position: fixed;
+	width: 100%;
+	background-color: #ec4899;
+	animation-name: fadeInDown;
+	animation-duration: 0.5s;
+	z-index: 200;
+}
+
+.navbar__scrolled .scroll-container {
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+.navbar__scrolled  .scroll-logo {
+    background-color: #fbcfe8;
+    fill: #ec4899;
+}
+
+.navbar__scrolled .scroll-logo-title {
+ color: #fff;
+}
+
+.navbar__scrolled .scroll-logo-subtitle {
+    color: #fce7f3;
+}
+
+.navbar__scrolled .scroll-nav-color {
+    color: #fce7f3;
+}
+
+.navbar__scrolled .router-link-active {
+    color: #111827;
+}
+
+.assistantNavbar__scrolled {
+/* 	padding-top: 80px; */
+	height: 88px;
 }
 </style>
