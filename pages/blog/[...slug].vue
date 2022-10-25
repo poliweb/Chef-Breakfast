@@ -17,10 +17,16 @@ import {convertDate} from '../../utils'
                 </div>
             </div>
             <div class="container px-5 py-24 mx-auto">
-                <NuxtLink to="/blog" class="mr-16 flex items-center gap-x-1">Все статьи</NuxtLink>
-
+                <NuxtLink to="/blog" class="mr-16 flex items-center gap-x-1 hover:text-pink-500">
+                    <IconsBookopen class="w-6 h-6 mr-1"/>
+                    All articles
+                </NuxtLink>
                 <ContentRenderer :value="doc" class="conent-descrip text-gray-600 mx-auto" />
                 <p class="my-4 text-gray-400"><span>by, {{ doc.author }}, {{ convertDate(doc.date) }}</span></p>
+                <NuxtLink to="/blog" class="mr-16 flex items-center gap-x-1 hover:text-pink-500">
+                    <IconsBookopen class="w-6 h-6 mr-1"/>
+                    All articles
+                </NuxtLink>
             </div>
         </ContentDoc>
     </section>

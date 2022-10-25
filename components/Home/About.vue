@@ -17,14 +17,14 @@
                     The health of people largely depends on the correct, scientifically based, well-organized nutrition. Food should not only quantitatively, but also qualitatively meet the physiological needs and capabilities.
                 </p>
                 <NuxtLink to="/about" class="text-pink-500 inline-flex items-center mt-4">
-                    Learn More
+                    About us in more detail
                     <IconsArrow class="w-4 h-4 ml-1"/>
                 </NuxtLink>
             </div>
             <div class="w-full md:w-1/2 relative max-w-2xl">
                 <div class="pr-5 pb-5 sm:pr-10 sm:pb-10 md:pr-20 md:pb-20  z-20">
-                    <img src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1662956031/CHEF%20BREAKFAST/photo-1532635211-8ec15f2ce05c_v5zx8d.webp"
-                        alt="Chef" class="rounded z-20 -hue-rotate-60">
+                    <nuxt-img src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_592/v1662956031/CHEF%20BREAKFAST/photo-1532635211-8ec15f2ce05c_v5zx8d.webp"
+                        alt="Chef" class="rounded z-20 -hue-rotate-60" width="592" height="887" loading="lazy"/>
                 </div>
                 <div class="podloga w-full h-full rounded bg-pink-300 absolute bottom-0 right-0 -z-50"></div>
             </div>

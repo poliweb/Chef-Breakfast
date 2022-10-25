@@ -5,21 +5,21 @@ const features = [
         title: 'Bakery products',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663048620/CHEF%20BREAKFAST/Food/photo-1608198093002-ad4e005484ec_sw1yab.webp',
-        LinkTo: ''
+        LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Magic Desserts',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663048010/CHEF%20BREAKFAST/Food/photo-1578775887804-699de7086ff9_kw75i6.webp',
-        LinkTo: ''
+        LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Fantastic Ice Cream',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663046628/CHEF%20BREAKFAST/Food/photo-1633933358116-a27b902fad35_csrbjq.webp',
-        LinkTo: ''
+        LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
@@ -40,8 +40,8 @@ const features = [
         title: 'Unique Afghan Kebab',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663047270/CHEF%20BREAKFAST/Food/photo-1555939594-58d7cb561ad1_k9eom3.webp',
-        linkTo: ''
-    }
+        LinkTo: '/blog/russianpancakes'
+    },
 ]
 </script>
 <template>

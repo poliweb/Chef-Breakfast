@@ -9,6 +9,10 @@ const MenuLinks = [
         url: '/services'
     },
     {
+        title: 'Menu',
+        url: '/menu'
+    },
+    {
         title: 'Blog',
         url: '/blog'
     },
