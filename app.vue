@@ -1,5 +1,8 @@
 <script setup>
 useHead({
+  htmlAttrs: {
+      lang: 'en',
+    },
   link: [
     {
       rel: 'stylesheet',
