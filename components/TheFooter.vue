@@ -1,5 +1,5 @@
 <template>
-    <footer class="text-gray-600 body-font">
+    <footer class="text-gray-600 body-font bg-pink-100">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <NuxtLink to="/" class="flex title-font font-medium items-center mb-4 md:mb-0">
                 <TheLogo class="fill-white w-10 h-10 text-white p-2 bg-pink-500 rounded-full scroll-logo"/>
