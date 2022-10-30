@@ -22,7 +22,7 @@ const qc = await queryContent('blog')
     <div class="container px-5 py-24 mx-auto">
       <h1 class="title mb-24">Chef's Notes</h1>
       <p class="lg:w-2/3 leading-relaxed text-base mb-20">In this blog you will find recipes and tips from the best chef
-        of all time. With much love to you "CHEF BREAKFAST"</p>
+        of all time. With much love to you <span class="bg-pink-200 text-pink-800 px-2">"CHEF BREAKFAST"</span></p>
       <!-- <div class="">
         <ul class="flex gap-4">
           <li v-for="category in qc" :key="category.title">#{{ category.category }}</li>

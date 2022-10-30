@@ -69,7 +69,7 @@ const features = [
                                 <h2 class="title-font text-2xl font-medium text-pink-500 mb-3 uppercase">{{
                                 feature.title }}
                                 </h2>
-                                <p class="leading-relaxed">
+                                <p class="leading-relaxed text-gray-600">
                                     {{ feature.description }}
                                 </p>
                             </div>

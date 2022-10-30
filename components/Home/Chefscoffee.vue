@@ -48,7 +48,7 @@ const coffeeAssortments = [
     <div class="container mx-auto my-24 px-5">
         <h2 class="text-lg sm:text-2xl text-gray-900 font-medium title-font mb-2">Сoffee you won't forget</h2>
         <h1 class="title">Chef`s Coffee</h1>
-        <p class="py-2">The bitter drink from the chef was loved by visitors no less than the relaxed atmosphere of the
+        <p class="py-2 text-gray-600">The bitter drink from the chef was loved by visitors no less than the relaxed atmosphere of the
             cafe.</p>
         <div class="flex flex-col md:flex-row gap-8 my-20">
             <div class="w-full md:w-1/3 -hue-rotate-60 hover:hue-rotate-15 transition duration-500 ease-in-ou bg-cover bg-center rounded"
@@ -65,7 +65,7 @@ const coffeeAssortments = [
                             <h3 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
                                 {{ coffeeAssortment.title }}
                             </h3>
-                            <p class="text-gray-900 transition duration-700 ease-in-out">
+                            <p class="text-gray-600 transition duration-700 ease-in-out">
                                 {{ coffeeAssortment.description }}
                             </p>
                             <NuxtLink :to="coffeeAssortment.LinkTo"
