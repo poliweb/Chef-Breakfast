@@ -82,7 +82,7 @@ const coffeeAssortments = [
 </template>
 
 <style>
-.coffeeDescription h3,
+.coffeeDescription h2,
 .coffeeDescription p,
 .coffeeDescription a{
     opacity: 0;
@@ -91,7 +91,7 @@ const coffeeAssortments = [
 }
 
 
-.coffeeDescription:hover h3,
+.coffeeDescription:hover h2,
 .coffeeDescription:hover p,
 .coffeeDescription:hover a {
     opacity: 1;
