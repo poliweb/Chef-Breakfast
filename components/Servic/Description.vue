@@ -36,10 +36,10 @@ const Descriptions = [
       </div>
       <div class="flex flex-wrap -m-4">
         <div v-for="Description in Descriptions" :key="Description.index" class="p-4 lg:w-1/2 md:w-full">
-          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
+          <div class="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col description">
             <div
-              class="w-40 h-40 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center  bg-indigo-100 text-pink-500 flex-shrink-0">
-              <nuxt-img :src="Description.img" :alt="Description.title" class="rounded" width="160" height="160" />
+              class="w-40 h-40 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center  bg-indigo-100 text-pink-500 flex-shrink-0 rounded overflow-hidden">
+              <nuxt-img :src="Description.img" :alt="Description.title" class="rounded transition duration-700 ease-in-out" width="160" height="160" />
             </div>
             <div class="flex-grow">
               <h2 class="text-gray-900 text-lg title-font font-medium mb-3">{{ Description.title }}</h2>
@@ -65,5 +65,7 @@ export default {
 </script>
 
 <style>
-
+.description:hover img {
+  transform: scale(1.3);
+}
 </style>

@@ -62,9 +62,9 @@ const coffeeAssortments = [
                     <div
                         class="absolute top-0 left-0 bottom-0 right-0 p-4 hover:backdrop-opacity-20 hover:backdrop-invert hover:bg-pink-100/70 transition duration-700 ease-in-out coffeeDescription">
                         <div class="flex flex-col place-content-center h-full">
-                            <h3 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
+                            <h2 class="text-pink-500 text-2xl font-semibold transition duration-500 ease-in-out">
                                 {{ coffeeAssortment.title }}
-                            </h3>
+                            </h2>
                             <p class="text-gray-600 transition duration-700 ease-in-out">
                                 {{ coffeeAssortment.description }}
                             </p>

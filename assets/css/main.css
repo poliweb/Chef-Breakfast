@@ -14,6 +14,7 @@
     font-family: Lora, system-ui, sans-serif;
   }
 
+  .title-white,
   .title {
     font-family: Lora, system-ui, sans-serif;
   }
@@ -22,9 +23,15 @@
 .btn-primary {
     @apply inline-flex text-white bg-pink-500 border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 hover:shadow-lg hover:shadow-pink-500/50  rounded-full  text-lg transition ease-in-out ;
 }
+.btn-primary-white {
+    @apply inline-flex text-pink-500 bg-white border-0 py-2 px-6 focus:outline-none hover:bg-pink-600 hover:shadow-lg hover:text-white hover:shadow-pink-300/50  rounded-full  text-lg transition ease-in-out ;
+}
 .btn-secondary {
     @apply inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg;
 }
 .title {
   @apply text-5xl font-bold italic uppercase mb-4 text-pink-500;
+}
+.title-white {
+  @apply text-5xl font-bold italic uppercase mb-4 text-white;
 }

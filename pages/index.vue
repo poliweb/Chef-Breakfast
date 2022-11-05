@@ -19,6 +19,7 @@ useHead({
     <HomeFeature/>
     <HomeAbout/>
     <HomeChefscoffee/>
+    <HomePhotoalbum/>
   </div>
 </template>
 
