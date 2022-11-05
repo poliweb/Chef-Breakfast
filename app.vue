@@ -16,12 +16,25 @@ const nuxtApp = useNuxtApp()
   nuxtApp.hook("page:finish", () => {
      window.scrollTo(0, 0)
   })
+
 // console.log('✋ Hi!  This Project from PoliWeb Developer. ⛔This project is not in production yet ')
 </script>
 <template>
   <div>
     <NuxtLayout>
-      <NuxtPage />
+        <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
+
+<style>
+.page-enter-active {
+  animation: backInDown;
+  animation-duration: 1.5s;
+}
+.page-leave-active {
+  animation: backOutDown;
+  animation-duration: 1.5s;
+}
+
+</style>
