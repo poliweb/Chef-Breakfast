@@ -30,11 +30,19 @@ const nuxtApp = useNuxtApp()
 <style>
 .page-enter-active {
   animation: backInDown;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
+  transition: all 2s;
 }
 .page-leave-active {
   animation: backOutDown;
   animation-duration: 1.5s;
+  transition: all 1.5s;
+}
+
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
 }
 
 </style>
