@@ -9,7 +9,7 @@
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="flex w-full mb-20 flex-wrap">
                 <h1 class="title-white lg:w-1/3 lg:mb-0 mb-4">Our cafe gives comfort</h1>
-                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-gray-50">The cafe is a great place to relax with
+                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base text-gray-900">The cafe is a great place to relax with
                     friends on weekends. Such a warm and friendly environment is also gaining popularity as an ideal workplace for
                     remote workers. The café is stuffed by students and professionals from all walks of life. The interior of our cafe
                     helps to focus on work and complex tasks, to hold negotiations, a business meeting and a romantic date.</p>

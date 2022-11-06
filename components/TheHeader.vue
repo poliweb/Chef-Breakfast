@@ -103,15 +103,15 @@ const MenuLinks = [
 }
 
 .navbar__scrolled .scroll-nav-color {
-    color: #fce7f3;
+    color: #ffffff;
 }
 
 .navbar__scrolled .router-link-active {
-    color: #831843;
+    color: #1e050f;
 }
 
 .navbar__scrolled .scroll-nav-a:hover {
-    color: #831843;
+    color: #1e050f;
 }
 
 .assistantNavbar__scrolled {
