@@ -1,4 +1,5 @@
 <script setup>
+const title = ref('Hi World')
 useHead({
 
   title: 'Chef Breakfast',
@@ -20,6 +21,7 @@ useHead({
     <HomeAbout/>
     <HomeChefscoffee/>
     <HomePhotoalbum/>
+    <TheCalltoaction/>
   </div>
 </template>
 
