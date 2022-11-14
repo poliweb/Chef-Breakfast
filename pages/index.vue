@@ -21,7 +21,14 @@ useHead({
     <HomeAbout/>
     <HomeChefscoffee/>
     <HomePhotoalbum/>
-    <TheCalltoaction/>
+    <TheCalltoaction>
+      <template #title>RESERVE A TABLE</template>
+      <template #description>
+        We are happy to arrange a table reservation for you in our establishment. Send us your name and phone number,
+        our manager will contact you to clarify the date and time for booking a table. Our staff works every day to make
+        your visit to our cafe pleasant and unforgettable.
+      </template>
+    </TheCalltoaction>
   </div>
 </template>
 

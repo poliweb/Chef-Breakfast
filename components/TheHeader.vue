@@ -10,7 +10,7 @@ const MenuLinks = [
     },
     {
         title: 'Menu',
-        url: '/menu'
+        url: '/404'
     },
     {
         title: 'Blog',

@@ -2,10 +2,11 @@
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-12">
-                <h1 class="title">Reserve a table</h1>
-                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are happy to arrange a table reservation for you in our
+                <h1 class="title"><slot name="title"></slot></h1>
+                <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We are happy to arrange a table reservation for you in our
                     establishment. Send us your name and phone number, our manager will contact you to clarify the date and time for
-                    booking a table. Our staff works every day to make your visit to our cafe pleasant and unforgettable.</p>
+                    booking a table. Our staff works every day to make your visit to our cafe pleasant and unforgettable.</p> -->
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><slot name="description"></slot></p>
             </div>
             <div
                 class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">

@@ -22,7 +22,8 @@ const nuxtApp = useNuxtApp()
 <template>
   <div>
     <NuxtLayout>
-        <NuxtPage />
+      <NuxtLoadingIndicator color="#ec4899"/>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
