@@ -16,9 +16,9 @@
     <Subscribe class="bg-pink-100">
       <template #title>Subsribe To Newsletter</template>
       <template #description>
-        We are happy to arrange a table reservation for you in our establishment. Send us your name and phone number,
-        our manager will contact you to clarify the date and time for booking a table. Our staff works every day to make
-        your visit to our cafe pleasant and unforgettable.
+        To keep up to date with the latest news and promotions from <span class="bg-pink-500 px-2 text-white">CHEF
+          BREAKFAST</span>, sign up for our newsletter. You will receive a 5% discount coupon in your email to use on your
+        next order.
       </template>
     </Subscribe>
   </div>
