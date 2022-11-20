@@ -10,6 +10,7 @@
 <template>
   <div>
     <AboutChef/>
+    <AboutTeam/>
   </div>
 </template>
 

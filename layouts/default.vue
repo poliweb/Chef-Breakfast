@@ -1,3 +1,22 @@
+<script setup>
+// https://fancyapps.com/docs/ui/installation
+import {
+    Fancybox
+} from "@fancyapps/ui/src/Fancybox/Fancybox.js"
+
+Fancybox.bind("[data-fancybox]", {
+    // Your options go here
+})
+useHead({
+  script: [
+    {
+      src: 'js/main.js',
+      body: true
+    }
+  ]
+})
+</script>
+
 <template>
   <div>
     <TheHeader />
@@ -7,7 +26,6 @@
 </template>
 
 <style>
-
 .wrapper-enter-active {
   animation: finished 2.5s reverse;
 }

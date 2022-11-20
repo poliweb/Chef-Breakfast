@@ -3,10 +3,13 @@
         <div class="flex flex-col md:flex-row items-center justify-between gap-8">
             <div class="w-full md:w-1/2 relative max-w-2xl">
                 <div class="pr-5 pb-5 sm:pr-10 sm:pb-10 md:pr-20 md:pb-20  z-20">
-                    <nuxt-img
-                        src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_face,w_592/v1668830017/CHEF%20BREAKFAST/Chef/StarChef_Right.webp"
-                        alt="Star Chef" class="rounded z-20 -hue-rotate-60" width="592" height="888"
-                        loading="lazy" />
+                    <a href="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_face,w_1500/v1668830017/CHEF%20BREAKFAST/Chef/StarChef_Right.webp"
+                        data-fancybox="gallery-Team" data-caption="Ivan Pipkin -  Star Chef" class="cursor-zoom-in">
+                        <nuxt-img
+                            src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_face,w_592/v1668830017/CHEF%20BREAKFAST/Chef/StarChef_Right.webp"
+                            alt="Star Chef" class="rounded z-20 -hue-rotate-60" width="592" height="888"
+                            loading="lazy" />
+                    </a>
                 </div>
                 <div class="podloga w-full h-full rounded bg-pink-300 absolute bottom-0 right-0 -z-50"></div>
             </div>
@@ -32,7 +35,8 @@
                     herbs and work with farmers.
                 </p>
                 <p class="py-2 text-gray-600">
-                    <span class="bg-pink-500 px-2 text-white">Cafe CHEF BREAKFAST</span> is innovative and elegant, respectful of the age-old traditions of the peoples
+                    <span class="bg-pink-500 px-2 text-white">Cafe CHEF BREAKFAST</span> is innovative and elegant,
+                    respectful of the age-old traditions of the peoples
                     and the "Universe".
                 </p>
             </div>
