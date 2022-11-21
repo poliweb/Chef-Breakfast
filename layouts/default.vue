@@ -12,7 +12,7 @@ useHead({
     {
       src: 'js/main.js',
       body: true
-    }
+    },
   ]
 })
 </script>

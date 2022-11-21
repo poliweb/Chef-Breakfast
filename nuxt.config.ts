@@ -4,5 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/image-edge'],
     css: ['animate.css', '~/assets/css/main.css', '@fancyapps/ui/dist/fancybox.css'],
-
 })
+
+

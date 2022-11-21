@@ -11,6 +11,15 @@
   <div>
     <AboutChef/>
     <AboutTeam/>
+    <AboutTestimonial/>
+    <Subscribe class="bg-pink-100">
+      <template #title>Subsribe To Newsletter</template>
+      <template #description>
+        To keep up to date with the latest news and promotions from <span class="bg-pink-500 px-2 text-white">CHEF
+          BREAKFAST</span>, sign up for our newsletter. You will receive a 5% discount coupon in your email to use on your
+        next order.
+      </template>
+    </Subscribe>
   </div>
 </template>
 

@@ -14,9 +14,9 @@
                     <div
                         class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
                         <a :href="TeamItem.bigPhoto" data-fancybox="gallery-Team" :data-caption="TeamItem.name + ' - ' + TeamItem.jobtitle" class="flex-shrink-0 rounded-lg w-48 h-48  sm:mb-0 mb-4 cursor-zoom-in">
-                            <img alt="team"
+                            <nuxt-img :alt="TeamItem.name + ' - ' + TeamItem.jobtitle"
                             class="rounded-lg w-48 h-48 object-cover object-center"
-                            :src="TeamItem.photo">
+                            :src="TeamItem.photo" width="192" height="192" loading="lazy"/>
                         </a>
                         <div class="flex-grow sm:pl-8">
                             <h2 class="title-font font-medium text-lg text-gray-900">{{ TeamItem.name }}</h2>
