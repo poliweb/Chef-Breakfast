@@ -20,10 +20,10 @@
                             data-fancybox="gallery-daynight"
                             data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full object-cover h-full object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_300,w_500/v1667621749/CHEF%20BREAKFAST/CafeComfort/CaffeComfort2_xk7p3a.webp"
-                                    width="500" height="300">
+                                    width="500" height="300"/>
                             </div>
                         </a>
                     </div>
@@ -32,10 +32,10 @@
                             data-fancybox="gallery-daynight"
                             data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full object-cover h-full object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_300,w_500/v1667621739/CHEF%20BREAKFAST/CafeComfort/CaffeComfort1_ygjrfj.webp"
-                                    width="500" height="300">
+                                    width="500" height="300"/>
                             </div>
                         </a>
                     </div>
@@ -43,10 +43,10 @@
                         <a href="https://res.cloudinary.com/poliweb/image/upload/g_center/v1667621790/CHEF%20BREAKFAST/CafeComfort/CaffeComfort12_cuughc.webp"
                             data-fancybox="gallery-daynight" data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full h-full object-cover object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_360,w_600/v1667621790/CHEF%20BREAKFAST/CafeComfort/CaffeComfort12_cuughc.webp"
-                                    width="600" height="360">
+                                    width="600" height="360"/>
                             </div>
                         </a>
                     </div>
@@ -56,10 +56,10 @@
                         <a href="https://res.cloudinary.com/poliweb/image/upload/g_center/v1667621790/CHEF%20BREAKFAST/CafeComfort/CaffeComfort9_sirwup.webp"
                             data-fancybox="gallery-daynight" data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full h-full object-cover object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_360,w_600/v1667621790/CHEF%20BREAKFAST/CafeComfort/CaffeComfort9_sirwup.webp"
-                                    width="600" height="360">
+                                    width="600" height="360"/>
                             </div>
                         </a>
                     </div>
@@ -67,10 +67,10 @@
                         <a href="https://res.cloudinary.com/poliweb/image/upload/g_center/v1667621778/CHEF%20BREAKFAST/CafeComfort/CaffeComfort8_ntnd3u.webp"
                             data-fancybox="gallery-daynight" data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full object-cover h-full object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_300,w_500/v1667621778/CHEF%20BREAKFAST/CafeComfort/CaffeComfort8_ntnd3u.webp"
-                                    width="500" height="300">
+                                    width="500" height="300"/>
                             </div>
                         </a>
                     </div>
@@ -78,10 +78,10 @@
                         <a href="https://res.cloudinary.com/poliweb/image/upload/g_center/v1667621911/CHEF%20BREAKFAST/CafeComfort/CaffeComfort7_isgdau.webp"
                             data-fancybox="gallery-daynight" data-caption="The cafe is a great place to relax with friends on weekends.">
                             <div class="transformImg">
-                                <img alt="The cafe is a great place to relax with friends on weekends."
+                                <nuxt-img alt="The cafe is a great place to relax with friends on weekends."
                                     class="w-full object-cover h-full object-center block transition ease-in-out duration-700 cursor-zoom-in"
                                     src="https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_300,w_500/v1667621911/CHEF%20BREAKFAST/CafeComfort/CaffeComfort7_isgdau.webp"
-                                    width="500" height="300">
+                                    width="500" height="300"/>
                             </div>
                         </a>
                     </div>

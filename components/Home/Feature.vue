@@ -4,42 +4,42 @@ const features = [
         subtitle: 'Chef Breakfast',
         title: 'Bakery products',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663048620/CHEF%20BREAKFAST/Food/photo-1608198093002-ad4e005484ec_sw1yab.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663048620/CHEF%20BREAKFAST/Food/photo-1608198093002-ad4e005484ec_sw1yab.webp',
         LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Magic Desserts',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663048010/CHEF%20BREAKFAST/Food/photo-1578775887804-699de7086ff9_kw75i6.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663048010/CHEF%20BREAKFAST/Food/photo-1578775887804-699de7086ff9_kw75i6.webp',
         LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Fantastic Ice Cream',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663046628/CHEF%20BREAKFAST/Food/photo-1633933358116-a27b902fad35_csrbjq.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663046628/CHEF%20BREAKFAST/Food/photo-1633933358116-a27b902fad35_csrbjq.webp',
         LinkTo: '/'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Ukrainian borsch',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_north,h_361,w_601/v1663998920/CHEF%20BREAKFAST/Food/pexels-photo-8601388_ddzbee.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_north,h_208,w_477/v1663998920/CHEF%20BREAKFAST/Food/pexels-photo-8601388_ddzbee.webp',
         LinkTo: '/blog/ukrainianborsch'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Russian pancakes',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663047725/CHEF%20BREAKFAST/Food/photo-1600326145552-327f74b9c189_jl4c1l.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663047725/CHEF%20BREAKFAST/Food/photo-1600326145552-327f74b9c189_jl4c1l.webp',
         LinkTo: '/blog/russianpancakes'
     },
     {
         subtitle: 'Chef Breakfast',
         title: 'Unique Afghan Kebab',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_361,w_601/v1663047270/CHEF%20BREAKFAST/Food/photo-1555939594-58d7cb561ad1_k9eom3.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663047270/CHEF%20BREAKFAST/Food/photo-1555939594-58d7cb561ad1_k9eom3.webp',
         LinkTo: '/blog/russianpancakes'
     },
 ]
@@ -57,9 +57,9 @@ const features = [
             <div class="flex flex-wrap -m-4">
                 <div v-for="feature in features" :key="feature.index" class="lg:w-1/3 sm:w-1/2 p-4">
                     <div class="flex relative overflow-hidden transformImg rounded">
-                        <img alt="gallery"
+                        <nuxt-img alt="gallery"
                             class="absolute inset-0 w-full h-full object-cover object-center transition ease-in-out duration-700"
-                            :src="feature.imgSrc">
+                            :src="feature.imgSrc" width="477" height="208" loading="lazy"/>
                         <NuxtLink :to="feature.LinkTo">
                             <div
                                 class="px-8 py-10 relative z-10 w-full min-h-52 border-4 border-pink-200 transition-opacity duration-500 ease-in-out bg-white opacity-0 hover:opacity-100">
