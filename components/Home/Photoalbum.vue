@@ -5,7 +5,6 @@
 
 <template>
     <section class="text-gray-600 body-font bg-section">
-        <a id="Ourworks"></a>
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
             <div class="flex w-full mb-20 flex-wrap">
                 <h1 class="title-white lg:w-1/3 lg:mb-0 mb-4">Our cafe gives comfort</h1>
