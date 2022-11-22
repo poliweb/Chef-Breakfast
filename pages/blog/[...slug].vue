@@ -1,5 +1,11 @@
 <script setup>
 import {convertDate} from '../../utils'
+useHead({
+  title: '{{ doc.title }}',
+  meta: [
+    { name: 'description', content: 'This Blog from Chef Breakfast. Blog about delicious and healthy food. Recipes from our chef .' }
+  ]
+})
 </script>
 <template>
     <section class="text-gray-600 body-font">
