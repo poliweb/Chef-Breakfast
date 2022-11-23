@@ -42,6 +42,7 @@
                             <ul>
                                 <li v-for="menu in menus" :key="menu.id"
                                     class="relative rounded-md p-3 hover:bg-gray-100">
+                                    <a :href="menu.BigPhoto" data-fancybox="Menu" :data-caption="menu.title">
                                     <div class="flex flex-row justify-between gap-1">
                                         <div class="w-4/5">
                                             <h3 class="text-md font-medium leading-5">
@@ -56,12 +57,11 @@
                                             </ul>
                                         </div>
                                         <div class="w-20">
-                                            <nuxt-img :src="menu.photo" class="rounded-xl" width="80" height="80" />
+                                            <img v-if="!menu.photo" src="https://dummyimage.com/80x80" class="rounded-xl" />
+                                            <nuxt-img v-else :src="menu.photo" class="rounded-xl" width="80" height="80" />
                                         </div>
                                     </div>
-
-                                    <a :href="menu.BigPhoto" data-fancybox="Menu" :data-caption="menu.title"
-                                        :class="['absolute inset-0 rounded-md', 'ring-pink-400 focus:z-10 focus:outline-none focus:ring-2',]" />
+                                    </a>
                                 </li>
                             </ul>
                         </TabPanel>
@@ -102,7 +102,7 @@ const categories = ref({
             description: 'Description of the dish',
             cookingTime: '2h ago',
             price: 2,
-            photo: 'https://dummyimage.com/80x80',
+            photo: '',
             BigPhoto: 'https://dummyimage.com/800x800'
         },
     ],
