@@ -38,7 +38,7 @@ const coffeeAssortments = [
     {
         title: 'Coffee paradise',
         description: 'Coffee beans from sunny plantations and quality roasting',
-        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_1000/v1663129067/CHEF%20BREAKFAST/Coffee/photo-1554285833-5eb928f2d4c1_vwacqv.webp',
+        imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,w_315/v1663129067/CHEF%20BREAKFAST/Coffee/ChefCoffee.webp',
         LinkTo: '/',
         toTitle: 'Learn More'
     }
