@@ -51,9 +51,9 @@
                                             <p class="text-sm text-gray-700">{{ menu.description }}</p>
                                             <ul
                                                 class="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500 ">
-                                                <li>Cooking time - {{ menu.cookingTime }}</li>
+                                                <li>Cooking time - <span class="font-semibold">{{ menu.cookingTime }}</span></li>
                                                 <li>&middot;</li>
-                                                <li>Price - {{ menu.price }} $</li>
+                                                <li>Price - <span class="font-semibold">{{ menu.price }}</span> $</li>
                                             </ul>
                                         </div>
                                         <div class="w-20">
@@ -79,7 +79,6 @@ import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 const categories = ref({
     Breakfast: [
         {
-            id: 1,
             title: 'Chef`s coffee',
             description: 'The bitter drink from the chef was loved by visitors no less than the relaxed atmosphere of the cafe.',
             cookingTime: '0.5h',
@@ -88,36 +87,56 @@ const categories = ref({
             BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663129067/CHEF%20BREAKFAST/Coffee/ChefCoffee.webp'
         },
         {
-            id: 2,
-            title: "Turkish coffee",
+            title: 'Turkish coffee',
             description: 'Excellent Turkish coffee made from the best varieties of coffee beans and spring water. Served with Turkish sweets.',
-            cookingTime: '2h ago',
-            price: 2,
+            cookingTime: '0.10h',
+            price: 5,
             photo: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_80,w_80/v1663573066/CHEF%20BREAKFAST/Coffee/photo-1556667356-3452717120a0_hlapyo.webp',
             BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663573066/CHEF%20BREAKFAST/Coffee/photo-1556667356-3452717120a0_hlapyo.webp'
         },
         {
-            id: 2,
-            title: "coffee... now what?",
-            description: 'Description of the dish',
-            cookingTime: '2h ago',
-            price: 2,
+            title: 'Coffee morning',
+            description: 'Morning coffee is able to awaken and set up for the success of the day, just as coffee beans have absorbed the energy of the sun, air and earth.',
+            cookingTime: '0.5h',
+            price: 12,
             photo: '',
             BigPhoto: 'https://dummyimage.com/800x800'
+        },
+        {
+            title: 'Pancakes with toppings of your choice',
+            description: 'Pancakes are served to choose from - with honey, sour cream, jam, red caviar.',
+            cookingTime: '0.5h',
+            price: 15,
+            photo: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_80,w_80/v1663899649/CHEF%20BREAKFAST/Food/pexels-photo-4966595_hps7tp.webp',
+            BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663899649/CHEF%20BREAKFAST/Food/pexels-photo-4966595_hps7tp.webp'
+        },
+        {
+            title: 'Homemade cottage cheese pancakes with toppings of your choice',
+            description: 'Cheese pancakes are served to choose from - strawberry gazpacho with sour cream, berries with sour cream, honey with sour cream.',
+            cookingTime: '0.5h',
+            price: 15,
+            photo: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_80,w_80/v1663853728/CHEF%20BREAKFAST/Food/photo-1662645984203-736226e1c367_zdi5rp.webp',
+            BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663853728/CHEF%20BREAKFAST/Food/photo-1662645984203-736226e1c367_zdi5rp.webp'
         },
     ],
     Lunch: [
         {
-            id: 1,
-            title: 'Is tech making coffee better or worse?',
-            description: 'Description of the dish',
-            cookingTime: 'Jan 7',
+            title: 'Ukrainian borsch',
+            description: 'Ukrainian borsch with beef and bacon is not just a hearty and thick soup with beets, as some people think. The taste of the dish should be multifaceted and, oddly enough, fresh.',
+            cookingTime: '0.20h',
             price: 16,
-            photo: 'https://dummyimage.com/80x80',
-            BigPhoto: 'https://dummyimage.com/800x800'
+            photo: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_80,w_80/v1663998985/CHEF%20BREAKFAST/Food/pexels-photo-8599738_snmnd6.webp',
+            BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663998985/CHEF%20BREAKFAST/Food/pexels-photo-8599738_snmnd6.webp'
         },
         {
-            id: 2,
+            title: 'Sauerkraut for borscht',
+            description: 'Sauerkraut for borscht will give an unforgettable pleasure from lunch and complement the flavor bouquet for lunch',
+            cookingTime: '0.5h',
+            pricet: 12,
+            photo: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_80,w_80/v1663998952/CHEF%20BREAKFAST/Food/pexels-photo-8601414_xhgjqh.webp',
+            BigPhoto: 'https://res.cloudinary.com/poliweb/image/upload/g_center/v1663998952/CHEF%20BREAKFAST/Food/pexels-photo-8601414_xhgjqh.webp'
+        },
+        {
             title: 'The most innovative things happening in coffee',
             description: 'Description of the dish',
             cookingTime: 'Mar 19',
