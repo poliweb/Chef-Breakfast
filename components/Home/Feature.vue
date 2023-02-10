@@ -40,7 +40,7 @@ const features = [
         title: 'Unique Afghan Kebab',
         description: 'Our chef himself selects the highest quality and most delicious products for cooking.',
         imgSrc: 'https://res.cloudinary.com/poliweb/image/upload/c_fill,g_center,h_208,w_477/v1663047270/CHEF%20BREAKFAST/Food/photo-1555939594-58d7cb561ad1_k9eom3.webp',
-        LinkTo: '/blog/russianpancakes'
+        LinkTo: '/blog/home'
     },
 ]
 </script>
